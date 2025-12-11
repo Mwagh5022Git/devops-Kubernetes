@@ -1,0 +1,13 @@
+1.	Installation Kind & kubectl
+        ls
+        sudo apt-get update
+        chmod 777 install_kind_kube.sh
+        ./install_kind_kube.sh
+  
+2.	Setting Up the KIND Cluster
+        Sudo apt-get install docker.io
+        Sudo usermod -aG docker $USER  && newgrp docker 	[ $USER use for current User, newgrp for docker Group ]
+        Docker ps
+        Kubectl version
+        Docker –version
+        Kind --version
