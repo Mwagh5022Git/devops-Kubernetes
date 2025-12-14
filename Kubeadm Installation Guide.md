@@ -3,15 +3,16 @@ https://github.com/LondheShubham153/kubestarter/tree/main/Kubeadm_Installation_S
 
 This guide outlines the steps needed to set up a Kubernetes cluster using kubeadm.
 Prerequisites 
-•	Ubuntu OS (Xenial or later) 
-•	sudo privileges 
-•	Internet access 
-•	t2.medium instance type or higher
+    •	Ubuntu OS (Xenial or later)
+    •	sudo privileges
+    •	Internet access
+    •	t2.medium instance type or higher
 AWS Setup 
-•	Ensure that all instances are in the same Security Group. 
-•	Expose port 6443 in the Security Group to allow worker nodes to join the cluster. 
-•	Expose port 22 in the Security Group to allows SSH access to manage the instance..
-To do above setup, follow below provided steps 
+    •	Ensure that all instances are in the same Security Group. 
+    •	Expose port 6443 in the Security Group to allow worker nodes to join the cluster. 
+    •	Expose port 22 in the Security Group to allows SSH access to manage the instance..
+
+**To do above setup, follow below provided steps **
 Step 1: Identify or Create a Security Group 
 1.	Log in to the AWS Management Console: 
     o	 Go to the EC2 Dashboard. 
