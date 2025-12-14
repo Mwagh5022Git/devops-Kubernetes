@@ -2,6 +2,7 @@ Kubeadm Installation Guide
 https://github.com/LondheShubham153/kubestarter/tree/main/Kubeadm_Installation_Scripts_and_Documentation
 
 This guide outlines the steps needed to set up a Kubernetes cluster using kubeadm.
+
 Prerequisites 
     •	Ubuntu OS (Xenial or later)
     •	sudo privileges
