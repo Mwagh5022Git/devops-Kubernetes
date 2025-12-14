@@ -13,6 +13,7 @@ AWS Setup
     •	Expose port 22 in the Security Group to allows SSH access to manage the instance..
 
 **To do above setup, follow below provided steps **
+
 Step 1: Identify or Create a Security Group 
 1.	Log in to the AWS Management Console: 
     o	 Go to the EC2 Dashboard. 
